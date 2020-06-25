@@ -376,6 +376,9 @@ background-color: rgba(0, 0, 0, 0.253);
     font-weight: 300;
     color: white;
 }
+.slider{
+    display: none;
+}
 .back{
     padding: 4% 0 0 0;
     background-color: rgba(0, 255, 255, 0.157);
@@ -420,7 +423,7 @@ background-color: rgba(0, 0, 0, 0.253);
 }
 .footer{
     background-color: rgba(0, 0, 77, 0.965);
-    height: 350px;
+    max-height: 350px;
 }
 .grid-container6{
     display: grid;
