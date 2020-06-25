@@ -1,0 +1,171 @@
+
+body{
+    margin: 0;
+  }
+  .navbar{
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: left 2%;
+      width: 100%;
+      list-style-type: none ;
+      background-color: rgb(7, 7, 105);
+      z-index: 2;
+      
+  }
+  .links{
+      float: left;
+      
+  }
+  #brand{
+      display: block;
+      padding:14px 200px 14px 0 ;
+      font-size: 21px;
+      text-decoration: none;
+      color: white;
+      font-family: 'Lobster', cursive;
+      font-weight: 300;
+  }
+  .optn{
+      display: block;
+      padding:14px 35px ;
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+   
+  }
+  .links :hover{
+      background-color:rgb(12, 12, 78);
+      border-bottom:rgb(3, 124, 180) solid 3px;
+  }
+  .parallax{
+    background-image:  linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1)),url(https://www.itl.cat/pngfile/big/22-225234_maldives-resorts.jpg);
+    height: 480px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+  }
+  #main1{
+      padding: 10% 0 0 0;
+      text-align: center;
+      font-size: 4.5em;
+      color: rgba(255, 255, 255, 0.918);
+      font-family: 'Lato', sans-serif;
+      font-weight: 800;
+  }
+  #sub1{
+      margin-top: 0;
+      border-top: rgba(255, 255, 255, 0.65) solid 1px;
+      border-bottom: rgba(255, 255, 255, 0.651) solid 1px;
+      color: white;
+      font-size: 1.2em;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      text-align: center;
+      padding: 1% 0 1% 0;
+      width: 35%;
+      margin-left:31.5% ;
+      
+  }
+  .tour1{
+      margin:10% 5% 30% 5%;
+      background-image: url(https://wallpaperaccess.com/full/565447.jpg);
+      background-repeat: no-repeat;
+      border-radius: 5px;
+      background-position: 50%;
+      background-size: cover ;
+      height: 450px;
+      transition-duration: 1s;
+    }
+    .tour1:hover{
+        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpaperaccess.com/full/565447.jpg);
+        display: block;
+    }
+   
+    .placename{
+        text-align: center;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 5em;
+        padding: 2% 0 0 0;
+        margin: 0;
+
+    }
+    .grid-container1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 8em;
+        margin:0 8% ;
+        padding:15% 0 0 0;
+    }
+    .description1{
+        height: 270px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: rgb(34, 164, 240) 0 0 10px 1px;
+      
+       background-size: cover ;
+       background-color: white;
+    }
+    .text{
+        padding: 7% 5% 11% 5%;
+        
+        
+    }
+    .submain1{
+        color: rgb(6, 29, 133);
+        font-size: 1.5em;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        margin: 0;
+        padding-bottom: 5%;
+      
+    }
+    .subline1{
+        color: rgb(1, 23, 29);
+        font-size:1.2em;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        line-height: 1.5em;
+        margin: 0;   
+    }
+    #star{
+        padding-left: 3px;   
+    }
+
+    .tour2{
+       
+        margin:10% 5% 30% 5%;
+        background-image: url(https://wallpaperaccess.com/full/436964.jpg);
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-position: 50%;
+        background-size: cover ;
+        height: 450px;
+        transition-duration: 1s;
+      }
+      .tour2:hover{
+          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpaperaccess.com/full/436964.jpg);
+      }
+     
+    .tour3{
+       
+        margin:10% 5% 30% 5%;
+        background-image: url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-position: 50%;
+        background-size: cover ;
+        height: 450px;
+        transition-duration: 1s;
+      }
+      .tour3:hover{
+          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
+      }
+     
