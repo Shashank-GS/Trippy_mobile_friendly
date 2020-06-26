@@ -1,63 +1,24 @@
 
-body{
-    margin: 0;
-  }
-  .navbar{
-      position: fixed;
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: left 2%;
-      width: 100%;
-      list-style-type: none ;
-      background-color: rgb(7, 7, 105);
-      z-index: 2;
-      
-  }
-  .links{
-      float: left;
-      
-  }
-  #brand{
-      display: block;
-      padding:14px 200px 14px 0 ;
-      font-size: 21px;
-      text-decoration: none;
-      color: white;
-      font-family: 'Lobster', cursive;
-      font-weight: 300;
-  }
-  .optn{
-      display: block;
-      padding:14px 35px ;
-      font-size: 18px;
-      text-decoration: none;
-      color: white;
-      font-family: 'Lato', sans-serif;
-      font-weight: 700;
-   
-  }
-  .links :hover{
-      background-color:rgb(12, 12, 78);
-      border-bottom:rgb(3, 124, 180) solid 3px;
-  }
-  .parallax{
-    background-image:  linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1)),url(https://www.itl.cat/pngfile/big/22-225234_maldives-resorts.jpg);
-    height: 480px;
+  .parallax1{
+    background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)),url(https://www.itl.cat/pngfile/big/22-225234_maldives-resorts.jpg);
+    height: 480px ;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;  
     background-size: cover;
-    
-   
   }
+
+
+     
   #main1{
-      padding: 10% 0 0 0;
-      text-align: center;
-      font-size: 4.5em;
-      color: rgba(255, 255, 255, 0.918);
-      font-family: 'Lato', sans-serif;
-      font-weight: 800;
-  }
+    /* margin-top: 3%; */
+    padding: 10% 0 0 0;
+    text-align: center;
+    font-size: 4.5em;
+    color: rgba(255, 255, 255, 0.918);
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+
   #sub1{
       margin-top: 0;
       border-top: rgba(255, 255, 255, 0.65) solid 1px;
@@ -73,18 +34,20 @@ body{
       
   }
   .tour1{
-      margin:10% 5% 30% 5%;
-      background-image: url(https://wallpaperaccess.com/full/565447.jpg);
+      margin:10% 5% 25% 5%;
+      background-image: url(./images/img2.jpg);
       background-repeat: no-repeat;
       border-radius: 5px;
       background-position: 50%;
       background-size: cover ;
       height: 450px;
-      transition-duration: 1s;
+    
+     
     }
     .tour1:hover{
-        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpaperaccess.com/full/565447.jpg);
-        display: block;
+        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img2.jpg);
+        
+        
     }
    
     .placename{
@@ -95,8 +58,30 @@ body{
         font-size: 5em;
         padding: 2% 0 0 0;
         margin: 0;
+        display: block;
+}
 
+    .buy-now{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 5em;
+        text-align: center;
+        color:#ffffff;
+        width: 100%;
+        padding-top: 2%;
+        text-decoration: none;
+       background-color: rgba(0, 0, 0, 0);
+        display: none;
     }
+
+    .tour:hover .placename{
+        display: none;
+    }
+
+    .tour:hover .buy-now{
+        display: block;
+    }
+
     .grid-container1{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -141,31 +126,157 @@ body{
 
     .tour2{
        
-        margin:10% 5% 30% 5%;
-        background-image: url(https://wallpaperaccess.com/full/436964.jpg);
+        margin:10% 5% 25% 5%;
+        background-image: url(./images/img3.jpg);
         background-repeat: no-repeat;
         border-radius: 5px;
         background-position: 50%;
         background-size: cover ;
         height: 450px;
-        transition-duration: 1s;
+       
       }
       .tour2:hover{
-          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpaperaccess.com/full/436964.jpg);
+          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img3.jpg);
       }
      
     .tour3{
        
-        margin:10% 5% 30% 5%;
-        background-image: url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
+        margin:10% 5% 20% 5%;
+        background-image: url(./images/img4.jpg);
         background-repeat: no-repeat;
         border-radius: 5px;
         background-position: 50%;
         background-size: cover ;
         height: 450px;
-        transition-duration: 1s;
+       
       }
       .tour3:hover{
-          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
+          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img4.jpg);
       }
+     .pagination{
+         display: inline-block;
+         text-align: center;
+     }
+     .pagination a{
+        color: rgb(16, 14, 131);
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        background-color: white;
+        border: rgba(16, 14, 131, 0.267) solid .5px;
+
+
+     }
+     .pagination a:hover{
+         background-color: rgb(29, 189, 230);
+     }
+
+     .end{
+          text-align: center;
+          
+     }
+     .pagination a:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      
+      .pagination a:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .parallax2{
+        background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)),url(./images/img5.jpg);
+        height: 500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+      }
+      
+      #main2{
+          /* margin-top: 3%; */
+          padding: 10% 0 0 0;
+          text-align: center;
+          font-size: 4.5em;
+          color: rgba(255, 255, 255, 0.918);
+          font-family: 'Lato', sans-serif;
+          font-weight: 800;
+      }
+      #sub2{
+          margin-top: 4%;
+          border-top: rgba(255, 255, 255, 0.65) solid 1px;
+          border-bottom: rgba(255, 255, 255, 0.651) solid 1px;
+          color: white;
+          font-size: 1.2em;
+          font-family: 'Lato', sans-serif;
+          font-weight: 300;
+          text-align: center;
+          padding: 1% 0 1% 0;
+          width: 40%;
+          margin-left:29% ;
+          
+      }
+      .head{
+          margin-top: 8%;
+          margin-bottom: 8%;
+          text-align: center;
+          font-size: 2em;
+          color:rgba(12, 12, 189, 0.904) ;
+          font-family: 'Lato', sans-serif;
+          font-weight: 600;
+      }
+      .grid-container{
+          display:grid;
+          grid-template-columns:repeat(3,1fr);
+          grid-gap: 2em ;
+          margin: 5% 3% 5% 3%;
+          
+          
+      }
+      .grid1{
+        grid-auto-rows: 200px;
+      }
+      .galimg{
+          height: 100%;
+          width: 100%;
+          border-radius: 4px;
+      }
+    
+    .img1{
+        grid-row: 1/3;
+    }
+    
+    .img5{
+        grid-row: 1/3;
+        grid-column: 3/4;
+    }
+    .img6{
+        grid-column: 2/3;
+    grid-row: 3/5;
+    }
+    .grid2{
+    
+        grid-template-rows: 200px 200px 250px;
+      
+    }
+    .img10{
+        grid-row: 1/3;
+    }
+    .grid3{
+        grid-template-rows: 200px 200px 250px ;
+    }
+    .img16{
+        grid-row: 2/4;
+        grid-column: 3/4;
+    }
+    .img19{
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+    .img20{
+        grid-row: 2/4;
+        
+    }
+    
      

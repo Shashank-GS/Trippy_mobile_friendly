@@ -1,3 +1,5 @@
+/*  Home page responsive CSS  */
+/* checkbox for the nav bar hamburger */
 #flip{ 
     display: block;
     position: relative;
@@ -7,6 +9,7 @@
     opacity: 0%;
     padding: 10px;
 }
+/* An icon of hamburger  */
 #icon{
     display: block ;
     position: relative;
@@ -21,29 +24,35 @@
 #nav-link-resp{
    right: 4%; 
 }
-
+/* id of the title Trippy */
 #brand{
     font-size: 25px;
     padding-left: 5%;
     margin-bottom: 20px;
 }
+/* nav bar veiwed when the  checkbox is  clicked */
 #panel {
     display: none;
   }
+/* input checkbox */
 input{
     width:30px;
     height:30px; 
 }
+/* all the links  of nav bar  */
 .links{
-    width: 100%;
+    width: 100%; 
 }
-
+/* the formal nav bar containing the  title and links  */
 .navbar{
     width: 100%; 
 }
-
+/*  class of links  */
 .optn:hover{
     border-bottom: none;
+    width: 100%;
+}
+.optn{
     width: 100%;
 }
 
@@ -88,10 +97,6 @@ input{
     overflow-y: hidden;
     margin: 10% 10% ;
 } 
-
-.item:hover{ 
-} 
-
 
 /*  why to choose our tours  */ 
 .grid-container2{
@@ -152,12 +157,7 @@ input{
     margin: 0%; 
     
   }
-  /* .block1{
-      padding-left:50px ;
-  } */
-  /* .tab1 > .block1 {
-    scroll-snap-align: start;
-  } */
+ 
    .grid-container4> .tab1 {
     scroll-snap-align: start;
   }
@@ -189,22 +189,24 @@ input{
     background-color:  rgba(12, 119, 146, 0.941);
 }
 /* galleryy */ 
-/* .gallery{
-  margin-top:10%;
-} */
+
 /* footer   */
 .footer{
-   height: 100px;
+   height: 200px;
 }
 .grid-container6{
     grid-template-columns: none ;
     padding-top: 10px ;
 }
-
 #brand1 , #maska,  #hr1, .row2, .row3, .row4{
      display: none;
 }
 #iconcrate{
-    margin:0%;
+    margin:0%; 
+    padding-top: 20px; 
 } 
+
+
+/* The tour page Responsive CSS  */ 
+
 
