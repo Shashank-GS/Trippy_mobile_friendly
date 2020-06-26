@@ -19,18 +19,17 @@
      <nav class="navcontainer"> 
 
     <ul class="navbar">
-     
-        <li class="links" href="" id="brand">Trippy </li>
-        <div class="navlinks"  id="myTopnav"  >
+        <li class="links" class="link-resposive" href="" id="brand">Trippy </li>
+        <div class="link-resposive" id="nav-link-resp"> <input type="checkbox" id="flip" onclick="myFunction()">
+        <i id="icon"   class="fa fa-bars fa-2x"></i> 
+    </div>
+   
+        <div class="navlinks"  id="panel"  >
         <li class="links"><a class="optn" href="" >Home</a></li>
         <li class="links"><a class="optn" href="file:///home/dheeraj/Documents/vscodes/Tours.html">Tours</a></li>
         <li class="links"><a class="optn" href="">Gallery</a></li>
         <li class="links"><a class="optn" href="">About</a></li>
         <li class="links"><a class="optn" href="">Contact Us</a></li>
-        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-           -->
     </div>
 </ul>
 
@@ -156,8 +155,8 @@
                 </div>
             </div>
        </div>
-      <div class="slider">
-        <a class="slide" href="#person1"></a>
+      <div id="slider">
+        <a class="slide active" href="#person1"></a>
         <a class="slide" href="#person2"></a>
         <a class="slide" href="#person3"></a>
       </div>
@@ -238,5 +237,33 @@
        </div>
     </div>
        
+
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("slider");
+        var btns = header.getElementsByClassName("slide");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+
+function myFunction() {
+    if(document.getElementById("flip").checked === true){
+  document.getElementById("panel").style.display = "block";   
+  document.getElementById("icon").style.backgroundColor = "rgb(12, 12, 78)";
+}
+  if(document.getElementById("flip").checked === false){  
+  document.getElementById("panel").style.display = "none"   ; 
+  document.getElementById("icon").style.backgroundColor = "rgb(7, 7, 105)";   
+}
+}
+
+
+        </script>
+
+
 </body>
 </html>

@@ -12,10 +12,15 @@
     position: fixed;
     width: 100%; 
     min-height: 56px;
-    background-color: rgb(7, 7, 105);
+    background-color: rgb(7, 7, 105); 
     z-index: 2;
     
 }
+
+ #icon ,#flip{
+    display: none;
+}
+
 .navlinks{
     float: left;   
 }
@@ -34,7 +39,7 @@
 }
 .optn{
     display: inline-block;  
-    padding:15px 35px ;
+    padding:15px 35px ; 
     font-size: 18px;
     text-decoration: none;
     color: white;
@@ -42,9 +47,8 @@
     font-weight: 700;
 }
 .links :hover{
-    position: relative;
     background-color:rgb(12, 12, 78);
-    border-bottom:rgb(3, 124, 180) solid 0px;
+    border-bottom:rgb(3, 124, 180) solid 3px;
 }
 .img1{
     background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/10/Navagio-Beach-or-Shipwreck-Beach-in-Zante-Greece-4K-Ultra-HD-TV-Wallpaper-for-Desktop-Laptop-Tablet-And-Mobile-Phones-3840x2400.jpg);
@@ -205,7 +209,7 @@ background-color: rgba(0, 0, 0, 0.253);
     display: grid; 
     grid-template-columns: 0.9fr 1fr;
     grid-gap: 5em 0; 
-    padding: 9% 9% 5% 9%;
+    padding: 9% 5% 5% 5%;
 }
 #topic{
  color: rgb(7, 7, 105);    
