@@ -13,8 +13,7 @@
     width: 100%; 
     min-height: 56px;
     background-color: rgb(7, 7, 105); 
-    z-index: 2;
-    
+    z-index: 2; 
 }
 
  #icon ,#flip{
@@ -221,7 +220,7 @@ background-color: rgba(0, 0, 0, 0.253);
 
 .item4{
     overflow: hidden;
-}
+}  
 .item5{
     text-align: center;
     border: rgba(0, 0, 0, 0.171) solid 0.5px;

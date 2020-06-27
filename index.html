@@ -180,11 +180,11 @@
             <hr id="hr1">
             <h3 id="maska">In Trippy we try to provide the best services. Your happiness is our Success.</h3>
             <div id="iconcrate">
-                <i class=" fa fa-facebook fa-2x"  style="color:white;background-color:rgb(3, 124, 180);padding:10px 15px;margin:0px 10px;border-radius: 50%" ></i>
-                <i class="	fa fa-twitter fa-2x" style="color:white;background-color:rgb(3, 124, 180);padding: 10px;margin:0px 10px;border-radius: 50%" ></i>
-                <i class=" fa fa-pinterest-p fa-2x"  style="color:white;background-color:rgb(3, 124, 180);padding:10px 15px;margin:0px 10px;border-radius: 50%" ></i>
-                <i class="fa fa-google-plus fa-2x" style="color:white;background-color:rgb(3, 124, 180);padding:10px 5px;margin:0px 10px;border-radius: 50%"></i> 
-                <i class="fa fa-instagram fa-2x" style="color:white;background-color:rgb(3, 124, 180);padding:10px;margin:0px 10px;border-radius: 50%"></i>
+                <i class=" fa fa-facebook fa-1x"  style="color:white;background-color:rgb(111, 177, 179);padding:10px 12px;margin:0px 5px;border-radius: 50%" ></i>
+                <i class="	fa fa-twitter fa-1x" style="color:white;background-color:rgb(111, 177, 179);padding: 10px;margin:0px 5px;border-radius: 50%" ></i>
+                <i class=" fa fa-pinterest-p fa-1x"  style="color:white;background-color:rgb(111, 177, 179);padding:10px 12px;margin:0px 5px;border-radius: 50%" ></i>
+                <i class="fa fa-google-plus fa-1x" style="color:white;background-color:rgb(111, 177, 179);padding:10px 8px;margin:0px 5px;border-radius: 50%"></i> 
+                <i class="fa fa-instagram fa-1x" style="color:white;background-color:rgb(111, 177, 179);padding:10px 10px;margin:0px 5px;border-radius: 50%"></i>
             </div>
 
            </div>
@@ -227,6 +227,16 @@
        </div>
     </div>
        
-
+<script>
+          var header = document.getElementById("slider");
+        var btns = header.getElementsByClassName("slide");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+</script>
 </body>
 </html>

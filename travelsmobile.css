@@ -53,6 +53,7 @@ input{
     width: 100%;
 }
 .optn{
+    padding:15px 50px ; 
     width: 100%;
 }
 
@@ -192,7 +193,7 @@ input{
 
 /* footer   */
 .footer{
-   height: 200px;
+   height: 100px;
 }
 .grid-container6{
     grid-template-columns: none ;
@@ -206,7 +207,45 @@ input{
     padding-top: 20px; 
 } 
 
-
 /* The tour page Responsive CSS  */ 
+
+/* The gallery page Responsive CSS  */ 
+.gallery-grid-container{
+    grid-template-columns: 1fr;
+          width: 95%;
+          margin: auto ;  
+          grid-gap: 0.5em ;
+          padding-bottom: 50px;
+    
+}
+
+.parallax2{
+    text-align: center;
+    background-attachment: unset;
+    margin-bottom: 5%;
+}
+
+#main2{
+    padding: 100px 0 0 0;
+}
+#sub2{
+    width: 80%; 
+}
+
+.head{
+    margin-top: 0;
+    padding-top: 8%;
+}
+ .resorts{
+    background-color: rgba(209, 152, 152, 0.191);   
+    }        
+
+@media(max-width: 400px){
+.gallery-grid-container{
+    display: block;
+}
+}
+
+
 
 
