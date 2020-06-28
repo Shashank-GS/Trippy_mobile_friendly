@@ -210,27 +210,72 @@ input{
 
 /* The tour page Responsive CSS  */ 
 
-/* .grid-container1{
-    grid-template-columns: none;
-    display: inline-block;
-    margin:0 8% ; 
+.grid-container1{
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
-.description1{
-/* display: inline-block; */
-/* position: absolute; */
-/* width: 100%; */
-/* height: 100% ; */
-/* float: left; */
-/* } */ 
+.placename{
+    display: none;
+}
 
-.des{
+
+.buy-now{
+    font-size: 70px;
+    margin-bottom: 10%;
+    display: none;
+
+
+} 
+#tour-content{
+    width: 95%;
+    margin: auto;
+    padding: 20% 0% ;
+}
+.tour1, .tour2, .tour3{
     /* display: none; */
-/* width: 50%; */
+    padding: 3%;
+    margin:0% 0% 25% 0%; 
+    
 }
-.details{
-   /* width: 40%; */
+.tour:hover .des:hover .subline1{
+    display: block ;
+} 
+.details:hover .subline1{
+    display: block ;
+}  
+.text{
+    padding: 0% 5% 0% 5%;
+    /* padding: 0% 5% 0% 5%; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
+.submain1{
+   padding: 0; 
+   margin: 0;
+   /* width: 50%; */
+}
+.subline1{
+    /* width: 50%; */
+    padding: 0; 
+   margin: 0;
+    display: none;
+}
+ 
+.description1{
+
+width: 98%; 
+
+margin: auto;
+position: relative;
+
+z-index: 1;
+
+} 
+
+
 
 
 

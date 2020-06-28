@@ -90,8 +90,8 @@
         padding:15% 0 0 0;
     }
     .description1{
-        height: 270px;
-        width: 100%;
+        max-height: 100%;
+        /* width: 100%; */
         border-radius: 5px;
         box-shadow: rgb(34, 164, 240) 0 0 10px 1px;
       
